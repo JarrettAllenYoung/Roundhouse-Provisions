@@ -10,6 +10,21 @@ main {
 }
 
 
+/* SELECT ARROW DOWN (All Forms) */
+
+.elementor-select-wrapper .select-caret-down-wrapper {
+	transform: translatey(-50%) !important;
+}
+.elementor-select-wrapper .select-caret-down-wrapper svg {
+	display: none !important;
+}
+
+.elementor-select-wrapper .select-caret-down-wrapper::before {
+	content: '\23F7';
+	font-size: 24px;
+}
+
+
 /* PAGES */
 
 	/* Consumer Privacy Request Form */
