@@ -199,6 +199,10 @@ main {
 	margin-right: 12px;
 }
 
+.featured-product-loop-carousel .e-loop-item * {
+	word-break: normal !important;
+}
+
 /* You're Our Priority */
 
 .youre-our-priority-form {
