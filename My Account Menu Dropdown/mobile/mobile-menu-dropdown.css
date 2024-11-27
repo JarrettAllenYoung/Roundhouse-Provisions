@@ -1,0 +1,77 @@
+
+.mobile-my-account-dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.mobile-my-account-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CE3510 !important;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+}
+
+.mobile-my-account-dropdown-toggle .mobile-my-account-user-icon {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.mobile-my-account-dropdown-toggle .mobile-my-account-user-name {
+    font-family: 'Barlow';
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.mobile-my-account-dropdown-toggle .mobile-my-account-arrow {
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.mobile-my-account-dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #CE3510 !important;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.mobile-my-account-dropdown-menu.active {
+    display: block;
+}
+
+.mobile-my-account-dropdown-menu .mobile-my-account-menu-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s all;
+}
+
+.mobile-my-account-dropdown-menu .mobile-my-account-menu-item:hover {
+    background-color: #9A2E14;
+}
+
+.mobile-my-account-dropdown-menu .mobile-my-account-icon {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.mobile-my-account-dropdown-toggle .mobile-my-account-arrow::before {
+    content: '\25BE'; /* Downward triangle */
+    font-size: 20px;
+}
+
