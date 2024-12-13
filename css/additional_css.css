@@ -1,18 +1,16 @@
 /* START OF CUSTOM CSS */
 
-main {
-	min-height: calc(100vh - 610px) !important;
-}
 
 [data-elementor-type="single-page"] {
 	background-color: var(--e-global-color-90f86b5);
-	min-height: calc(100vh - 610px) !important;
+
 }
 
 /* SITEWIDE ELEMENTS */
 
 #five9OpenChatButton {
 	height: auto !important;
+	background-color: #CE3510 !important;
 }
 
 /* HEADER */
@@ -36,10 +34,30 @@ main {
     border-radius: 999px;
 }
 
+.elementor-icon-list-icon {
+    margin-top: 2px;
+}
+
+.elementor-icon-list-text img {
+    transform: translateY(2px);
+}
+
+/* ACCOUNT MENU */
+
+.close-popup-trigger .elementor-icon-list-text img {
+    transform: translateY(-2px);
+}
+
+@media only screen and (max-width: 1024px) {
+	.close-popup-trigger .elementor-icon-list-text img {
+    transform: translateY(4px);
+	}
+}
+
 /* COOKIE POLICY POPUP */
 
 .cookie-policy-popup .cookie-policy-popup-wrapper .cookie-policy-popup-btn svg {
-	color: #EE5531;
+	color: #CE3510;
 }
 
 .cookie-policy-popup-btn.close {
@@ -67,7 +85,7 @@ main {
 
 /* FOOTER */
 
-.klaviyo-form.klaviyo-form.klaviyo-form {
+/* .klaviyo-form.klaviyo-form.klaviyo-form {
 	padding: 0 !important;
 	background-color: transparent !important;
 }
@@ -109,7 +127,7 @@ main {
 }
 
 .needsclick .kl-private-reset-css-Xuajs1 button {
-	background-color: #EE5531 !important;
+	background-color: #CE3510 !important;
 	border-radius: 4px !important;
 	width: 100% !important;
 	transition: 0.3s !important;
@@ -117,7 +135,7 @@ main {
 
 .needsclick .kl-private-reset-css-Xuajs1 button:hover {
 	background-color: #9A2E14 !important;
-}
+} */
 
 /* PAGES */
 
@@ -137,27 +155,27 @@ main {
 }
 
 .consumer-privacy-request-form .elementor-field-group .elementor-select-wrapper select {
-	border-color: var(--e-global-color-5cbf428);
+	border-color: var(--e-global-color-ba9fc32);
 }
 
 .consumer-privacy-request-form .elementor-field-option:checked {
-	background-color: var(--e-global-color-5cbf428);
+	background-color: var(--e-global-color-ba9fc32);
 }
 
 .consumer-privacy-request-form .elementor-field-option input[type=radio]:hover + label {
 	color: white;
-	background-color: var(--e-global-color-5cbf428);
+	background-color: var(--e-global-color-ba9fc32);
 	transition: 200ms;
 }
 
 .consumer-privacy-request-form .elementor-field-option input[type=radio]:checked + label {
 	color: white;
-	background-color: var(--e-global-color-5cbf428);
+	background-color: var(--e-global-color-ba9fc32);
 }
 
 .consumer-privacy-request-form .elementor-field-option label {
 	padding: 15px;
-	border: 1px solid var(--e-global-color-5cbf428);
+	border: 1px solid var(--e-global-color-ba9fc32);
 	margin-right: -10px;
 }
 
@@ -237,8 +255,6 @@ main {
 	margin-top: 20px;
 	margin-bottom: 20px
 }
-
-
 
 .price-div {
 	display: flex;
@@ -344,27 +360,27 @@ main {
 }
 
 .your-privacy-choices-form .elementor-field-group .elementor-select-wrapper select {
-	border-color: var(--e-global-color-5cbf428);
+	border-color: var(--e-global-color-ba9fc32);
 }
 
 .your-privacy-choices-form .elementor-field-option:checked {
-	background-color: var(--e-global-color-5cbf428);
+	background-color: var(--e-global-color-ba9fc32);
 }
 
 .your-privacy-choices-form .elementor-field-option input[type=radio]:hover + label {
 	color: white;
-	background-color: var(--e-global-color-5cbf428);
+	background-color: var(--e-global-color-ba9fc32);
 	transition: 200ms;
 }
 
 .your-privacy-choices-form .elementor-field-option input[type=radio]:checked + label {
 	color: white;
-	background-color: var(--e-global-color-5cbf428);
+	background-color: var(--e-global-color-ba9fc32);
 }
 
 .your-privacy-choices-form .elementor-field-option label {
 	padding: 10px;
-	border: 1px solid var(--e-global-color-5cbf428);
+	border: 1px solid var(--e-global-color-ba9fc32);
 	margin-right: -10px;
 }
 
@@ -384,8 +400,6 @@ main {
 /* FTC Modal Pop Up */
 
 
-
-
 /* PRODUCTS */
 
 /* Image Boxes (Morning Kick products) */
@@ -395,6 +409,16 @@ main {
 margin-top: -20px;
 }
 */
+
+/* PDP OS */
+
+.ghm-offer-selector .button-container .add-to-cart {
+	background: #CE3510;
+	transition: 200ms;
+}
+.ghm-offer-selector .button-container .add-to-cart:hover {
+	background: #9A2E14;
+}
 
 /* POWER REVIEWS STARS (TOP OF PDP) */
 .p-w-r .pr-snippet-stars-reco-inline .pr-snippet-stars-reco-stars .pr-snippet, .p-w-r .pr-snippet-read-and-write {
@@ -536,6 +560,30 @@ margin-top: -20px;
 
 .p-w-r .pr-btn:hover {
 	background-color: #97DEF8 !important;
+}
+
+.p-w-r .pr-read-review a, .p-w-r .pr-review-display a {
+	font-family: Barlow;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #CE3510 !important;
+	border: 2px solid !important;
+	padding: 14px 40px !important;
+	border-color: #CE3510 !important;
+	border-radius: 12px !important;
+	transition: 0.2s !important;
+}
+
+.p-w-r .pr-read-review a, .p-w-r .pr-review-display a:hover {
+	border-color: #9A2E14 !important;
+	text-decoration: none;
+	color: #9A2E14 !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.p-w-r .pr-read-review a, .p-w-r .pr-review-display a {
+		padding: 10px 14px !important;
+	}
 }
 
 /* What's Inside Toggle & FAQ Toggle */
@@ -831,6 +879,8 @@ table tbody tr:hover>td {
 	}
 }
 
+/* GHM Mini OS */
+
 .ghm-mini-offer-selector .product-option .add-to-cart-container .add-to-cart-btn {
 	display: inline-block !important;
 	color: var(--rhp-secondary) !important;
@@ -907,4 +957,8 @@ z-index: 99999;
 }
 .aspire-wrapper p {
 	margin-bottom: 0 !important;
+}
+
+.pr-review-snapshot-faceoff {
+	display: none !important;
 }

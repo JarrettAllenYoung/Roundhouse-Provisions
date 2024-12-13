@@ -1,7 +1,5 @@
-
-    
     (function($) {
-        $(document).ready(function() {
+        $(window).on('load', function () {
             const isLoggedIn = $('body').hasClass('ghm-logged-in');
             const buyNowButtonMobile = document.getElementById('buy_now_mobile');
             const finalPriceMobile = document.getElementById('price_amount_mobile');
@@ -32,9 +30,16 @@
                     instantSavingsMobile.text(isLoggedIn ? `Instant Savings: ${radio.getAttribute('data-instant-savings-my-account')}` : `Instant Savings: ${radio.getAttribute('data-instant-savings')}`);
                     regularPriceMobile.text(`Regular Price: ${radio.getAttribute('data-regular-price')}`);
                     calloutBoxPriceMobile.text(radio.getAttribute('data-my-account-price'));
+                    
+                    // Hide or show instant-savings and regular-price based on selection and login status
+                    if (!isLoggedIn && radio.id === 'one_jar_mobile') {
+                        instantSavingsMobile.hide();
+                        regularPriceMobile.hide();
+                    } else {
+                        instantSavingsMobile.show();
+                        regularPriceMobile.show();
+                    }
                 });
             }
         });
     })(jQuery);
-
-

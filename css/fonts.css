@@ -1,0 +1,207 @@
+/* Antonio font weights/styles */
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Thin.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-ExtraLight.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Light.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Regular.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Medium.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-SemiBold.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Bold.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Antonio-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Barlow font weights/styles */
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Thin.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Thin.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ThinItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ThinItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraLight.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraLightItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraLightItalic.ttf') format('ttf');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Light.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-LightItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-LightItalic.ttf') format('ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Regular.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Italic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Medium.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-MediumItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-SemiBold.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-SemiBoldItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Bold.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-BoldItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-BoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraBold.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraBoldItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Black.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-BlackItalic.woff2') format('woff2'),
+         url('https://design.roundhouseprovisions.com/wp-content/uploads/2024/12/Barlow-BlackItalic.ttf') format('ttf');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* Apply the font globally */
+body, h1, h2, h3, h4, h5, h6, p, label, a {
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Barlow', sans-serif;
+}
