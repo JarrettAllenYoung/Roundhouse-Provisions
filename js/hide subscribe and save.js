@@ -1,0 +1,1 @@
+document.querySelector('.purchase-type-option.subscribe-save').style.display = 'none';
