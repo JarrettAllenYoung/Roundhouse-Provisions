@@ -1,0 +1,60 @@
+<div class="marquee">
+    <div class="marquee__group">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/Forbes-Logo-Copy-2.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/mens-journal-logo.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/rolling-stone-logo.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/new-beauty-logo.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/readers-digest-logo.svg">
+    </div>
+    <div aria-hidden="true" class="marquee__group">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/Forbes-Logo-Copy-2.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/mens-journal-logo.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/rolling-stone-logo.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/new-beauty-logo.svg">
+        <img src="https://design.roundhouseprovisions.com/wp-content/uploads/2025/02/readers-digest-logo.svg">
+    </div>
+</div>
+
+<style>
+:root {
+  --size: clamp(10rem, 1rem + 40vmin, 30rem);
+  --gap: calc(var(--size) / 14);
+  --duration: 20s;
+  --scroll-start: 0;
+  --scroll-end: calc(-100% - var(--gap));
+}
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  mask-image: linear-gradient(
+    var(--mask-direction, to right),
+    hsl(0 0% 0% / 0),
+    hsl(0 0% 0% / 1) 10%,
+    hsl(0 0% 0% / 1) 90%,
+    hsl(0 0% 0% / 0)
+  );
+}
+.marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  min-width: 100%;
+  animation: scroll-x var(--duration) linear infinite;
+}
+.marquee__group:first-child {
+    margin-right: 60px;
+}
+@keyframes scroll-x {
+  from {
+    transform: translateX(var(--scroll-start));
+  }
+  to {
+    transform: translateX(var(--scroll-end));
+  }
+}
+
+</style>
