@@ -1,0 +1,31 @@
+<script>
+var ghmLoggedInCookie3 = Cookies.get('ghm_logged_in');
+var ghmAuthDataCookie3 = Cookies.get('ghm_auth_data');
+
+var accountLoggedIn3 = ghmLoggedInCookie3 ? ghmLoggedInCookie3 === '1' : false;
+
+if(accountLoggedIn3) {
+    document.body.classList.add('ghm-logged-in');
+} else {
+    document.body.classList.add('ghm-logged-out');
+}
+</script>
+
+<style type="text/css">
+    body.ghm-logged-in .elem-loggedout {
+        display: none;
+    }
+    
+     body.ghm-logged-in .elem-loggedin {
+        display: block;
+    }
+    
+    body.ghm-logged-out .elem-loggedout {
+        display: block;
+    }
+    
+    body.ghm-logged-out .elem-loggedin {
+        display: none;
+    }
+    
+</style>
