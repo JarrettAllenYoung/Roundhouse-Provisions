@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px) {
+    .p-w-r .pr-snippet .pr-snippet-stars-png {
+        display: inline-flex !important;
+        align-items: center !important;
+    }
+    
+    .p-w-r .pr-rating-stars {
+        display: inline-flex !important;
+        gap: 0px !important;
+    }
+    
+    .p-w-r .pr-snippet-stars-reco-inline .pr-snippet-read-and-write {
+        display: inline-flex !important;
+    }
+    
+    .p-w-r .pr-snippet-stars-reco-inline.pr-snippet-minimal .pr-snippet-read-and-write a {
+        display: inline-flex !important;
+        font-size: 10px !important;
+        margin: 0px 0px 0px 0px !important;
+    }
+
+    .p-w-r .pr-snippet .pr-snippet-stars-png .pr-snippet-rating-decimal {
+        margin-left: 2px !important;
+    }
+
+    .ghm-offer-selector .product-option {
+        padding: 10px !important;
+    }
+
+    .ghm-offer-selector ul li label {
+        gap: 10px !important;
+        padding: 15px 10px !important;
+    }
+
+    .ghm-offer-selector ul li label:hover {
+        background-color: #fff !important;
+    }
+    
+    .ghm-offer-selector ul li label.active, .ghm-offer-selector ul li label:has(input[type="radio"]:checked) {
+        background-color: #fff !important;
+    }
+
+    .ghm-offer-selector .quantity-container {
+        gap: 8px !important;
+    }
+
+    .ghm-offer-selector .quantity-container .quantity {
+        font-size: 24px !important;
+    }
+
+    .ghm-offer-selector .quantity-container .final-price {
+        font-size: 24px !important;
+    }
+    
+    .ghm-offer-selector .badge {
+        background-color: #CE3510 !important;
+        color: #fff !important;
+    }
+    
+    .ghm-offer-selector .savings-message {
+        color: #54C0E8 !important;
+    }
+    
+    .ghm-offer-selector .disclaimer {
+        display: none !important;
+    }
+}

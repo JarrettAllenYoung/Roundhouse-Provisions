@@ -1,31 +1,88 @@
 <script>
-var ghmLoggedInCookie3 = Cookies.get('ghm_logged_in');
-var ghmAuthDataCookie3 = Cookies.get('ghm_auth_data');
-
-var accountLoggedIn3 = ghmLoggedInCookie3 ? ghmLoggedInCookie3 === '1' : false;
-
-if(accountLoggedIn3) {
-    document.body.classList.add('ghm-logged-in');
-} else {
-    document.body.classList.add('ghm-logged-out');
-}
+    var ghmLoggedInCookie3 = Cookies.get('ghm_logged_in');
+    var ghmAuthDataCookie3 = Cookies.get('ghm_auth_data');
+    
+    var accountLoggedIn3 = ghmLoggedInCookie3 ? ghmLoggedInCookie3 === '1' : false;
+    
+    if(accountLoggedIn3) {
+        document.body.classList.add('ghm-logged-in');
+    } else {
+        document.body.classList.add('ghm-logged-out');
+    }
 </script>
-
+    
 <style type="text/css">
-    body.ghm-logged-in .elem-loggedout {
+    body.ghm-logged-in .elem-loggedout, body.ghm-logged-out .elem-loggedin {
         display: none;
     }
     
-     body.ghm-logged-in .elem-loggedin {
+    body.ghm-logged-in .elem-loggedin, body.ghm-logged-out .elem-loggedout {
         display: block;
     }
-    
-    body.ghm-logged-out .elem-loggedout {
-        display: block;
-    }
-    
-    body.ghm-logged-out .elem-loggedin {
+	
+		body.ghm-logged-in .elem-loggedout-flex, body.ghm-logged-out .elem-loggedin-flex {
         display: none;
     }
-    
+	
+		body.ghm-logged-in .elem-loggedin-flex, body.ghm-logged-out .elem-loggedout-flex {
+        display: flex;
+    }
+	
+	
+	@media screen and (min-width: 1367px) {
+		body.ghm-logged-in .elem-loggedout.elementor-hidden-desktop, 
+		body.ghm-logged-out .elem-loggedin.elementor-hidden-desktop,
+		body.ghm-logged-in .elem-loggedout-flex.elementor-hidden-desktop, 
+		body.ghm-logged-out .elem-loggedin-flex.elementor-hidden-desktop,
+	
+		body.ghm-logged-in .elem-loggedin.elementor-hidden-desktop, 
+		body.ghm-logged-out .elem-loggedout.elementor-hidden-desktop,
+		body.ghm-logged-in .elem-loggedin-flex.elementor-hidden-desktop, 
+		body.ghm-logged-out .elem-loggedout-flex.elementor-hidden-desktop {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width: 1025px) and (max-width: 1366px) {
+		body.ghm-logged-in .elem-loggedout.elementor-hidden-laptop, 
+		body.ghm-logged-out .elem-loggedin.elementor-hidden-laptop,
+		body.ghm-logged-in .elem-loggedout-flex.elementor-hidden-laptop, 
+		body.ghm-logged-out .elem-loggedin-flex.elementor-hidden-laptop,
+	
+		body.ghm-logged-in .elem-loggedin.elementor-hidden-laptop, 
+		body.ghm-logged-out .elem-loggedout.elementor-hidden-laptop,
+		body.ghm-logged-in .elem-loggedin-flex.elementor-hidden-laptop, 
+		body.ghm-logged-out .elem-loggedout-flex.elementor-hidden-laptop {
+			display: none;
+		}
+	}
+	
+	@media screen and (min-width: 768px) and (max-width: 1024px) {
+		body.ghm-logged-in .elem-loggedout.elementor-hidden-tablet, 
+		body.ghm-logged-out .elem-loggedin.elementor-hidden-tablet,
+		body.ghm-logged-in .elem-loggedout-flex.elementor-hidden-tablet, 
+		body.ghm-logged-out .elem-loggedin-flex.elementor-hidden-tablet,
+	
+		body.ghm-logged-in .elem-loggedin.elementor-hidden-tablet, 
+		body.ghm-logged-out .elem-loggedout.elementor-hidden-tablet,
+		body.ghm-logged-in .elem-loggedin-flex.elementor-hidden-tablet, 
+		body.ghm-logged-out .elem-loggedout-flex.elementor-hidden-tablet{
+			display: none;
+		}
+	}
+	
+	@media screen and (max-width: 767px) {
+		body.ghm-logged-in .elem-loggedout.elementor-hidden-mobile, 
+		body.ghm-logged-out .elem-loggedin.elementor-hidden-mobile,
+		body.ghm-logged-in .elem-loggedout-flex.elementor-hidden-mobile, 
+		body.ghm-logged-out .elem-loggedin-flex.elementor-hidden-mobile,
+	
+		body.ghm-logged-in .elem-loggedin.elementor-hidden-mobile, 
+		body.ghm-logged-out .elem-loggedout.elementor-hidden-mobile,
+		body.ghm-logged-in .elem-loggedin-flex.elementor-hidden-mobile, 
+		body.ghm-logged-out .elem-loggedout-flex.elementor-hidden-mobile {
+		display: none;
+	}
+	}
+  
 </style>
