@@ -1,0 +1,33 @@
+
+.july-2025-promo-outer-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border: 2px dashed #CE3510;
+  border-radius: 5px;
+}
+.july-2025-promo-outer-container .heading-copy {
+  font-family: 'Barlow';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.556px;
+  text-transform: uppercase;
+  color: #064760;
+  text-align: center;
+  margin: 0 !important;
+}
+.july-2025-promo-outer-container .disclaimer-copy {
+  color: #000;
+  text-align: center;
+  font-family: 'Barlow';
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  margin: 2px 0 0 0 !important;
+  max-width: 434px;
+}
