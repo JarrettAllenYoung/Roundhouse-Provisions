@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   // 1) Build the promo HTML
   const promoHTML = `

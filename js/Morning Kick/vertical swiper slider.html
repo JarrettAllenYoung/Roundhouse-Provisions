@@ -1,0 +1,260 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+<div class="gallery-wrapper">
+  <div class="gallery-flex">
+    <div class="thumbs-nav">
+      <button class="swiper-button-prev-thumbs chevron-up" aria-label="Scroll up">
+        <svg width="20" height="20" viewBox="0 0 20 20"><path d="M5 13l5-5 5 5" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </button>
+      <div class="swiper kimo-product-gallery-nav-2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/07/slide-1.jpg" /></div>
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/07/Main-Img-3.jpg" /></div>
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/Main-Img-6-1.png" /></div>
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/07/slide-4.jpg" /></div>
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/slide-5-1-1.png" /></div>
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/slide-6.png" /></div>
+          <div class="swiper-slide"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/slide-7-1.png" /></div>
+        </div>
+      </div>
+      <button class="swiper-button-next-thumbs chevron-down" aria-label="Scroll down">
+        <svg width="20" height="20" viewBox="0 0 20 20"><path d="M5 7l5 5 5-5" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+
+    <div class="main-nav">
+      <div class="swiper kimo-product-gallery-main-2 swiper-zoom">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/07/slide-1.jpg" /></div></div>
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/07/Main-Img-3.jpg" /></div></div>
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/Main-Img-6-1.png" /></div></div>
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/07/slide-4.jpg" /></div></div>
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/slide-5-1-1.png" /></div></div>
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/slide-6.png" /></div></div>
+          <div class="swiper-slide"><div class="swiper-zoom-container"><img src="https://cdn.roundhouseprovisions.com/wp-content/uploads/2025/04/slide-7-1.png" /></div></div>
+        </div>
+
+        <button class="swiper-button-prev-main chevron-left" aria-label="Previous image">
+          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M17 7l-6 7 6 7" stroke="#222" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="swiper-button-next-main chevron-right" aria-label="Next image">
+          <svg width="28" height="28" viewBox="0 0 28 28"><path d="M11 7l6 7-6 7" stroke="#222" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.gallery-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.gallery-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.thumbs-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 83px;
+}
+
+.swiper.kimo-product-gallery-nav-2 {
+  width: 83px;
+  height: 430px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.kimo-product-gallery-nav-2 .swiper-wrapper {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.kimo-product-gallery-nav-2 .swiper-slide {
+  width: 83px !important;
+  height: 83px !important;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 0.2s, border 0.2s;
+  box-sizing: border-box;
+  display: block;
+}
+
+.kimo-product-gallery-nav-2 .swiper-slide:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.kimo-product-gallery-nav-2 .swiper-slide-thumb-active {
+  opacity: 1;
+  border: 2px solid #443B32;
+}
+
+.kimo-product-gallery-nav-2 .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid #BDBEBF;
+}
+
+.chevron-up,
+.chevron-down {
+  background: none !important;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 6px auto;
+  cursor: pointer;
+  padding: 0 !important;
+  transition: box-shadow 0.15s, background 0.15s;
+}
+
+.chevron-up:hover,
+.chevron-down:hover {
+  background: #f5f5f5;
+}
+
+.main-nav {
+  position: relative;
+  flex: 1 1 0%;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper.kimo-product-gallery-main-2 {
+  width: 100%;
+  max-width: 450px;
+  position: relative;
+}
+
+.kimo-product-gallery-main-2 .swiper-slide .swiper-zoom-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.swiper-button-prev-main,
+.swiper-button-next-main {
+  position: absolute;
+  z-index: 10;
+  background: none !important;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s, background 0.15s;
+}
+
+.swiper-button-prev-main {
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+.swiper-button-next-main {
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev-main:hover,
+.swiper-button-next-main:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  background: #f3f3f3;
+}
+
+.swiper-button-prev-main svg,
+.swiper-button-next-main svg {
+  display: block;
+}
+
+@media (max-width: 1125px) {
+  .thumbs-nav {
+    display: none;
+  }
+
+  .gallery-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .main-nav {
+    max-width: 100%;
+  }
+
+  .swiper.kimo-product-gallery-main-2 {
+    max-width: 100%;
+  }
+
+  .swiper-button-prev-main {
+    top: 50%;
+    bottom: auto;
+    left: 14px !important;
+    right: auto;
+    transform: translateY(-50%);
+  }
+
+  .swiper-button-next-main {
+    top: 50%;
+    bottom: auto;
+    right: 14px !important;
+    left: auto;
+    transform: translateY(-50%);
+  }
+}
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const isMobile = window.innerWidth <= 700;
+
+  let thumbsSwiper;
+  if (!isMobile) {
+    thumbsSwiper = new Swiper(".kimo-product-gallery-nav-2", {
+      direction: 'vertical',
+      slidesPerView: 'auto',
+      freeMode: false,
+      navigation: {
+        nextEl: ".swiper-button-next-thumbs",
+        prevEl: ".swiper-button-prev-thumbs"
+      },
+      mousewheel: true,
+    });
+  }
+
+  const mainSwiper = new Swiper(".kimo-product-gallery-main-2", {
+    spaceBetween: 0,
+    slidesPerView: 1,
+    navigation: {
+      nextEl: ".swiper-button-next-main",
+      prevEl: ".swiper-button-prev-main"
+    },
+    zoom: {
+      maxRatio: 2.5
+    },
+    ...(thumbsSwiper ? { thumbs: { swiper: thumbsSwiper } } : {})
+  });
+});
+</script>
